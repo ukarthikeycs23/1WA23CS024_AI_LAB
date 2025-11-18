@@ -50,8 +50,6 @@ def alpha_beta(node: Any, depth: int, alpha: float, beta: float,
         return best_val, best_path, pruned
 
 
-# --- Hard-coded tree from your notebook ---
-# Root is a maximizing node; each sublist is children (MIN level next)
 tree = [
     [   # Left subtree (MIN)
         [21, 5],
